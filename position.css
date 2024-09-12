@@ -1,0 +1,11 @@
+/* Absolute + Relative */
+
+.article {
+    width: 50%;
+    height: 50%;
+    border: 2px solid purple;
+    background-color: white;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+  } 
