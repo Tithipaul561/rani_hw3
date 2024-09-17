@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+   
+}
+body{
+  background-image: url('/menubar/img/5651982.jpg');
+  height:50vh;
+}
+nav {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+ 
+  ul li{
+    list-style-type: none;
+ }
+  ul li a{
+    display:block;
+     color:white;
+     float: right;
+     margin-right: 80px;
+   text-decoration: none;
+   padding: 5px;
+  }
+ 
+ ul li a:hover{
+    color:lightseagreen ;
+}
+.button a{
+  list-style-type: none;
+  text-decoration: none;
+  color:white;
+  float: right;
+  display: block;
+  border-radius: 20px;
+  background-color:lightseagreen ;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: none;
+}
+.button a:hover{
+     background-color:lightcoral;
+}
+@media screen and (max-width: 600px) {
+  .links, .button, .logo {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
